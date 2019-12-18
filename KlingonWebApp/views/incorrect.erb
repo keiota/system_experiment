@@ -10,11 +10,9 @@
 <h2>第<%= $page %>問</h2>
 </center>
 
-<% $question_record.each do |q| %>
-クリンゴン語: <%= q.word %><br>
-<% end %>
+クリンゴン語: <%= $question_record.word %><br>
 不正解<br>
-正しい答え: 
+正しい答え:
 <% $correct_record.each do |a| %>
 <%= a.word %><br>
 <% end %>
