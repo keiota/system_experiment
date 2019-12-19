@@ -1,0 +1,7 @@
+
+
+.main-container {
+  background-image: url("<%= asset-path("Klingon Dictionary-01.png") %>")
+  height: 800px;
+  background-size:cover;
+}

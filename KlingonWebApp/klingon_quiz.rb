@@ -25,7 +25,7 @@ set :environment, :production
 set :sessions,
   expire_after: 7200,
   secret: 'abcdefghij0123456789'
-
+set :public, File.dirname(__FILE__) + '/public'
 $my_id     # ユーザー自身のid
 $page      # クイズ何問目かってやつ
 
